@@ -8,7 +8,7 @@ updater = Updater(token = '580322629:AAHCc2Kp3Icq3eiPA4iiNGV7ok9eLpoZmV0')
 dispatcher = updater.dispatcher
 
 def startCommand(bot, update):
-    bot.send_message(chat_id=update.message.chat_id, text = 'Давай общаться?')
+    bot.send_message(chat_id=update.message.chat_id, text = ' общаться?')
 def helpCommand(bot, update):
     bot.send_message(chat_id=update.message.chat_id, text = 'Итак, на сегоднешнний день я умею: 1.Определить можно ли построить треугольник с помощью команды(Triangle) 2.Найти корень числа с помощью команды (Реши) 3.Является ли треугольник прямоугольным с помощью команды(Прям)')
 def textMessage(bot, update):
